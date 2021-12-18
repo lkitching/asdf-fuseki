@@ -17,11 +17,11 @@ asdf install fuseki 3.4.0
 ```
 
 The plugin exports shims for the binaries in the fuseki package including `fuseki` and `fuseki-server`. If the asdf shims directory is
-on your `PATH` these should be available
+on your `PATH` these should be available:
 
 ```bash
 # run fuseki server
 fuseki-server
 ```
 
-The plugin sets `FUSEKI_HOME` to location of the current version specified in `.tool-versions`.
+The plugin sets `FUSEKI_HOME` to the location of the current version specified in `.tool-versions`.
